@@ -1,0 +1,17 @@
+window_title: Hello There
+introductory_message: This app is used to select either a CSV or XLS/XLSX file and send the input to a Zebra label printer.
+help_message: This application accepts any .xlsx / .xls or .csv file and sends each
+  record as a separate label to your Zebra label printer.
+
+  Files must contain either a Container ID or Sample ID (barcode) field as the first field.
+  It will then print out values from the next seven (7) fields.  The app will ignore any additional
+  fields; you should rearrange them as desired.
+
+  Sometimes the Zebra printer Internet Protocol (IP) addresses or port numbers are misconfigured.
+  Please contact IS in order to determine the correct IP address and update the 'Zebra Settings.txt' file accordingly.
+  Be sure to provide a friendly name as well...
+printers:
+  Friendlyname 1: 11.2.3.4.5
+  Friendlyname 2: 23.442.23.4
+  Friendlyname 3: null
+window_theme: DarkBlue1
